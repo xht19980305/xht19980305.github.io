@@ -1,0 +1,124 @@
+---
+layout: page
+title: "About"
+description: "Hey, this is Vm."
+header-img: "img/post-bg-universe.jpg"
+---
+
+
+<!-- Chinese Version -->
+<div class="zh post-container">
+
+    <!--copied from markdown -->
+    <blockquote>
+        <p>Be tough, in a soft way.</p>
+        <p>保持坚韧 以柔软的方式</p>
+        <p>勿忘初心 方得始终</p>
+    </blockquote>
+
+    <p>Hey，我是<strong>淡然(Vm)</strong>，一只前端程序猿，现在深圳工作。</p>
+
+    <p>工作、学习之余，我还是一个爬山/摄影爱好者<br>
+        同时也非常喜欢折腾电子数码产品/游戏。</p>
+
+    <p>这是我的利用
+        <a href="https://pages.github.com/">GitHubPages</a>
+        与
+        <a href="http://jekyll.com.cn/">Jekyll</a>
+        搭建的 个人博客。<br>
+        我的GitHub主页
+        <a href="https://github.com/danranvm">👉GitHub·Vm</a>
+        。如果有什么问题，欢迎提出探讨~
+    </p>
+
+    <p>感谢<a href="https://baiyingqiu.github.io">邱柏荧(BY)</a>提供这么好的
+        <a href="./2017/02/06/快速搭建个人博客">教程</a>
+        .</p>
+
+    <h5>Talks</h5>
+
+    <ul>
+        <li><a href="https://github.com">GitHub</a></li>
+        <li><a href="http://jekyll.com.cn/">jekyll</a></li>
+        <li><a href="http://huangxuan.me/">Hux</a></li>
+        <li><a href="https://analytics.google.com/analytics">Google
+                Analytics</a></li>
+    </ul>
+</div>
+
+
+<!-- Handle Language Change -->
+<script type="text/javascript">
+    // get nodes
+    var $zh = document.querySelector(".zh");
+    //var $en = document.querySelector(".en");
+
+    // bind hashchange event
+    window.addEventListener('hashchange', _render);
+
+    // handle render
+    function _render() {
+        var _hash = window.location.hash;
+        $zh.style.display = "block";
+    }
+
+    // handle select change
+    function onLanChange(index) {
+        if (index == 0) {
+            window.location.hash = "#zh"
+        } else {
+            window.location.hash = "#en"
+        }
+    }
+
+    // init
+    _render();
+</script>
+
+
+<!-- Gitalk 评论 start  -->
+{% if site.gitalk.enable %}
+<!-- Gitalk link  -->
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+<script type="text/javascript">
+    var gitalk = new Gitalk({
+        clientID: '{{site.gitalk.clientID}}',
+        clientSecret: '{{site.gitalk.clientSecret}}',
+        repo: '{{site.gitalk.repo}}',
+        owner: '{{site.gitalk.owner}}',
+        admin: ['{{site.gitalk.admin}}'],
+        distractionFreeMode: {{ site.gitalk.distractionFreeMode }},
+    id: 'about',
+    });
+    gitalk.render('gitalk-container');
+</script>
+{% endif %}
+<!-- Gitalk end -->
+
+<!-- disqus 评论框 start  -->
+{% if site.disqus.enable %}
+
+<div class="comment">
+    <div id="disqus_thread" class="disqus-thread">
+    </div>
+</div>
+<!-- disqus 评论框 end -->
+
+<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = "{{site.disqus.username}}";
+    var disqus_identifier = "{{site.disqus.username}}/{{page.url}}";
+    var disqus_url = "{{site.url}}{{page.url}}";
+
+    (function () {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<!-- disqus 公共JS代码 end -->
+{% endif %}
