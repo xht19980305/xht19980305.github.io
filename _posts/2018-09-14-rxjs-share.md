@@ -20,9 +20,9 @@ RxJS 是 Reactive Extension 这种模式的 JavaScript 语⾔实现
 
 ### 什么是 Rx
 
-[ReactiveX.io](http://reactivex.io/)：Rx 是一个使用可观察数据流进行异步编程的编程接口，它结合了观察者模式、迭代器模式和函数式编程的精华
+[ReactiveX.io](http://reactivex.io/){:target="\_blank"}：Rx 是一个使用可观察数据流进行异步编程的编程接口，它结合了观察者模式、迭代器模式和函数式编程的精华
 
-[维基百科](https://en.wikipedia.org/wiki/Reactive_extensions)：在软件编程中，Reactive Extensions 是一组工具，允许命令式编程语言对数据序列进行操作，而不管数据是同步还是异步。它提供了一组序列运算符，用于对序列中的每个项目进行操作
+[维基百科](https://en.wikipedia.org/wiki/Reactive_extensions){:target="\_blank"}：在软件编程中，Reactive Extensions 是一组工具，允许命令式编程语言对数据序列进行操作，而不管数据是同步还是异步。它提供了一组序列运算符，用于对序列中的每个项目进行操作
 
 ### Rx 发展历史
 
@@ -221,7 +221,7 @@ console.log("------他们都是异步的 所以我先跑路了------");
 
 ### 基础实现
 
-以下代码需要在[jsbin](https://jsbin.com/?html,js,output)中运行
+以下代码需要在[jsbin](https://jsbin.com/?html,js,output){:target="\_blank"}中运行
 
 ```js
 // 发布者
@@ -299,6 +299,6 @@ myMap(myObserver, x => "map value: " + x * 2);
 
 ## RxJS 在 Angular 中的应用
 
-[Angular 中的可观察对象](https://www.angular.cn/guide/observables-in-angular)
+[Angular 中的可观察对象](https://www.angular.cn/guide/observables-in-angular){:target="\_blank"}
 
 ## 未完待续...

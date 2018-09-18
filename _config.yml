@@ -96,6 +96,6 @@ service-worker: true
 friends: [
     {
         title: "特航",
-        href: "https://github.com/cntehang"
+        href: "https://cntehang.github.io"
     }
 ]
