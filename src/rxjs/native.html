@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Native</title>
+</head>
+
+<body>
+	<input type="text" id="demo">
+
+	<script type="text/javascript">
+		var $input = document.getElementById("demo"); // 获取 Dom 元素
+		var myCallback = debounce(callback); // 获取 debounce 方法 
+		//var myCallback = debounce(callback, 100); 
+
+		$input.onkeyup = function (e) {
+			//给 Dom 元素绑定事件
+			var value = $input.value;
+			// 模拟请求
+			setTimeout(function () {
+				myCallback("这个是服务器返回的数据：" + value);
+			}, 1000);
+		};
+
+		/**
+		 * 返回 fn 函数的防反跳版本, 将延迟函数的执行在函数最后一次调用时刻的 t 毫秒之后
+		 * @param fn 需要进行防反跳处理的函数
+		 * @param t 防抖时间 默认1s
+		 */
+		function debounce(fn, t) {
+			var t = t || 1000,
+				timer;
+			return function () {
+				var _this = this,
+					args = arguments;
+				if (timer) {
+					clearTimeout(timer);
+				}
+				timer = setTimeout(function () {
+					timer = null;
+					fn.apply(_this, args);
+				}, t);
+			};
+		}
+
+		var count = 0, // 记录返回次数
+			beforeValue = $input.value; // 保存上一次用户输入结果 用于对比
+		/**
+		 * 用户输入后回调函数
+		 * @param value
+		 */
+		function callback(value) {
+			if (value === beforeValue) {
+				return;
+			}
+			count++;
+			beforeValue = value;
+			console.log("count: " + count + " , value: " + value);
+		}
+	</script>
+</body>
+
+</html>

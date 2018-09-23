@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Rxjs vs Promise</title>
+  <script src="https://unpkg.com/rxjs@5.5.12/bundles/Rx.js"></script>
+</head>
+
+<body>
+  <script type="text/javascript">
+    //以下是Promise的写法
+    let promise = new Promise(resolve => {
+      setTimeout(() => {
+        resolve('---promise timeout---')
+      }, 2000)
+    })
+    promise.then(value => console.log(value))
+
+    //以下是Observable的写法
+    let observable$ = new Rx.Observable(observer => {
+      let timeout = setTimeout(() => {
+        observer.next('---observable timeout---')
+      }, 2000)
+      return () => {
+        clearTimeout(timeout)
+      }
+    })
+    let subscription = observable$.subscribe(value => console.log(value))
+
+    //1：Observable是可以中途取消的，而Promise一旦触发就不能取消了
+    setTimeout(() => {
+      console.log('---observable 还没到执行时间, 我就把它取消了.---')
+      subscription.unsubscribe()
+    }, 1000)
+
+    //2：Observable可以持续发射很多值，而Promise只能发射一个值就结束了
+    let observable2$ = new Rx.Observable(observer => {
+      let count = 0
+      let interval = setInterval(() => {
+        observer.next(++count)
+      }, 3000)
+      return () => {
+        clearInterval(interval)
+      }
+    })
+    let subscription1 = observable2$.subscribe(value => console.log('Observable>' + value))
+
+    setTimeout(() => {
+      console.log('---Observable unsubscribe---')
+      subscription1.unsubscribe()
+    }, 10000)
+
+    //3：Observable提供了很多的工具函数，最最最常用的filter和map演示如下
+    let subscription2 = observable2$.filter(value => value % 2 == 0).subscribe(value => console.log('filter>' + value))
+    let subscription3 = observable2$.map(value => value * value).subscribe(value => console.log('map>' + value))
+    setTimeout(() => {
+      console.log('---filter unsubscribe---')
+      subscription2.unsubscribe()
+    }, 20000)
+    setTimeout(() => {
+      console.log('---map unsubscribe---')
+      subscription3.unsubscribe()
+    }, 30000)
+
+    console.log('------他们都是异步的 所以我先跑路了------')
+  </script>
+</body>
+
+</html>

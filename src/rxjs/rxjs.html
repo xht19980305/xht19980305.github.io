@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Rxjs</title>
+  <script src="https://unpkg.com/rxjs@5.5.12/bundles/Rx.js"></script>
+</head>
+
+<body>
+  <input type="text" id="demo">
+
+  <script type="text/javascript">
+    var $input = document.getElementById('demo') // 获取 Dom 元素
+    // 创建 Observable 对象
+    var observable = Rx.Observable.fromEvent($input, 'keyup')
+      .map(e => e.target.value)
+      .debounceTime(1000) //100 
+      .distinctUntilChanged()
+      .switchMap((value) => {
+        return Rx.Observable.of("这个是服务器返回的数据：" + value).delay(1000)
+      })
+    // 订阅 Observable
+    var subscription = observable.subscribe(callback.bind(this))
+
+    var count = 0 // 记录返回次数
+    function callback(value) {
+      count++
+      console.log("count: " + count + " , value: " + value)
+    }
+  </script>
+</body>
+
+</html>
