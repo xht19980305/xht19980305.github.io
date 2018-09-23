@@ -28,7 +28,7 @@ RxJS 是 Reactive Extension 这种模式的 JavaScript 语⾔实现
 
 最初是 LINQ 的一个扩展，由微软的架构师 Erik Meijer 领导的团队开发，在 2012 年 11 月开源，Rx 是一个编程模型，目标是提供一致的编程接口，帮助开发者更方便的处理异步数据流，Rx 库支持.NET、JavaScript 和 C++，Rx 近几年越来越流行了，现在已经支持几乎全部的流行编程语言了，Rx 的大部分语言库由 ReactiveX 这个组织负责维护，比较流行的有 RxJava/RxJS/Rx.NET，社区网站是 reactivex.io。
 
-![Erik Meijer](../img/rxjs-share/ErikMeijer.png)
+![Erik Meijer](/img/rxjs-share/ErikMeijer.png)
 
 ## RxJS 能干什么
 
@@ -134,7 +134,7 @@ function callback(result) {
 ## RxJS vs Promise
 
 废话不多说，先上结果
-![RxJS vs Promise](../img/rxjs-share/rxjs-vs-promise.png)
+![RxJS vs Promise](/img/rxjs-share/rxjs-vs-promise.png)
 
 ### 再来举个栗子
 
