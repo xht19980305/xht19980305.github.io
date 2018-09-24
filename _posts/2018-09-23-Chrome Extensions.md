@@ -24,7 +24,7 @@ tags:
 - 对于程序猿来说：WOW，这个开发者工具太好用了，我就用它了。
 - 对于其他人来说：哇，你看他们程序猿都用这个浏览器，肯定是最好用的。
 
-其实，如果你只是单纯的用一个裸奔的 Chrome 的话，你大概只能发挥出它 30%的威力，这个时候你还不如用 Edge,Safari,Firefox 等，甚至国内的一些定制化的浏览器都会更好用一点。我之前一直都是日常上网用 Edge or Safari，开发调试用 Chrome。  
+其实，如果你只是单纯的用一个裸奔的 Chrome 的话，你大概只能发挥出它 30%的能力，这个时候你还不如用 Edge,Safari,Firefox 等，甚至国内的一些定制化的浏览器都会更好用一点。我之前一直都是日常上网用 Edge or Safari，开发调试用 Chrome。  
 如果你是一个程序猿，用了 Chrome 的开发者工具，那么你大概能发挥它 5 成功力。  
 那么剩下的 5 成能力呢，就要通过它的各种各样的插件（扩展程序）来获取了。
 
@@ -32,13 +32,14 @@ tags:
 
 经过了一天时间的反复挑选，一周多的实际使用后，我的插件库里留下了这些
 ![All Extensions](/img/chrome-extensions/extensions.png)
-总共 23 个（右上角有一个的管理插件的插件），除去 4 个 PWA 应用（图标中带 APP）,剩下了 19 款插件，日常启用 11 款。
+总共 23 个（右上角有一个的管理插件的插件），除去 4 个 PWA 应用（图标中带 APP）,剩下了 19 款插件，日常启用 11 款。  
+如果你有什么好用的插件也可以推荐给我，比如我现在很想要一个快速清理浏览器内容的插件。
 
 注意: Chrome 真的很吃内存（Chrome: 我没有，我不是，别瞎说），我这么用的话，一启动就是 800M。所以建议大家根据自己的电脑配置以及日常使用频率，来启用/禁用这些插件。
 
 ## 扩展程序介绍
 
-接下里我将会把我这些插件逐一介绍给大家，能够科学上网的同学可以直接点链接添加到 Chrome. 对于不能科学上网的同学，请点击[下载链接](/src/chrome-extensions/chrome-extensions.zip)。
+接下里我将会把我这些插件逐一介绍给大家，能够科学上网的同学可以直接点插件名称添加到 Chrome. 对于不能科学上网的同学，请点击[下载链接](/src/chrome-extensions/chrome-extensions.zip)。
 
 ### [Adblock Plus](https://chrome.google.com/webstore/detail/adblock-plus/cfhdojbkjhnklbpkdaibdccddilifddb){:target="\_blank"}
 
@@ -73,7 +74,7 @@ tags:
 ### [Imagus](https://chrome.google.com/webstore/detail/imagus/immpkjjlgappgfkkfieppnmlhakdmaab?utm_source=chrome-ntp-icon){:target="\_blank"}
 
 - 推荐指数：💗💗💗💗
-- 用途：鼠标悬停预览图片
+- 用途：鼠标悬停预览图片或内容
 - 介绍：鼠标指针悬停在链接或缩略图上时直接在当前页面的弹出视图上显示这些图片、HTML5 视频/音频和内容专辑。对于经常浏览多图片的网站的人来说是神器，从此看图不用一张张点开了，鼠标指上去就行。它额外还提供了很多自主化的功能设置。
 
 ![Imagus](/img/chrome-extensions/imagus.png)
