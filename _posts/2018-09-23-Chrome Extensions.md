@@ -43,20 +43,20 @@ tags:
 
 ### [Adblock Plus](https://chrome.google.com/webstore/detail/adblock-plus/cfhdojbkjhnklbpkdaibdccddilifddb){:target="\_blank"}
 
-- 推荐指数：💗💗💗💗💗
+- 推荐指数：❤️❤️❤️❤️❤️
 - 用途：广告屏蔽
 - 介绍：Chrome 上较好的广告插件没太多争议，Adblock 和 Adblock Plus 随便选一款就行了。
 
 ### [crxMouse Chrome™ 手势](https://chrome.google.com/webstore/detail/crxmouse-chrome-gestures/jlgkpaicikihijadgifklkbpdajbkhjo){:target="\_blank"}
 
-- 推荐指数：💗💗💗
+- 推荐指数：❤️❤️❤️
 - 用途：鼠标手势,超级拖曳,滚轮手势,摇杆手势,平滑滚动,标签页列表等
 - 介绍：crxMouse Chrome™ 手势扩展程序为您带来触手可及的 Chrome 浏览器功能，通过解锁完全可自定义的鼠标手势、击键和鼠标快捷键来提高您的工作效率。
 - 官方示例[链接](https://crxmouse.com/zh-hans/){:target="\_blank"}
 
 ### [扩展管理器（Extension Manager）](https://chrome.google.com/webstore/detail/extension-manager/gjldcdngmdknpinoemndlidpcabkggco){:target="\_blank"}
 
-- 推荐指数：💗💗💗💗
+- 推荐指数：❤️❤️❤️❤️
 - 用途：管理插件库（就是上面那张图所示）
 - 介绍：一键管理所有扩展，快速开启/禁用、批量闪电管理，智能排序，右键卸载、锁定、选项配置，角标提醒，大小布局随心配。快捷、简单、安全。
 - 一键开启/禁用扩展
@@ -68,12 +68,12 @@ tags:
 
 ### [Google 翻译](https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb){:target="\_blank"}
 
-- 推荐指数：💗💗💗
+- 推荐指数：❤️❤️❤️
 - 不仅能翻译单词/语句，还能翻译整个网页，英语不好的同学的福音。（只给 3 星的原因是它翻译的太好了，让我很依赖 TAT）
 
 ### [Imagus](https://chrome.google.com/webstore/detail/imagus/immpkjjlgappgfkkfieppnmlhakdmaab?utm_source=chrome-ntp-icon){:target="\_blank"}
 
-- 推荐指数：💗💗💗💗
+- 推荐指数：❤️❤️❤️❤️
 - 用途：鼠标悬停预览图片或内容
 - 介绍：鼠标指针悬停在链接或缩略图上时直接在当前页面的弹出视图上显示这些图片、HTML5 视频/音频和内容专辑。对于经常浏览多图片的网站的人来说是神器，从此看图不用一张张点开了，鼠标指上去就行。它额外还提供了很多自主化的功能设置。
 
@@ -83,13 +83,13 @@ tags:
 
 ### [Instapaper](https://chrome.google.com/webstore/detail/instapaper/ldjkgaaoikpmhmkelcgkgacicjfbofhh){:target="\_blank"}
 
-- 推荐指数：💗💗
+- 推荐指数：❤️❤️
 - 用途：保存离线阅读/稍后阅读的链接
 - 介绍：可以在你的 iPhone、iPad、Android、电脑或 Kindle 上保存网页。登录账户后，可以跨终端进行阅读，简化的操作流程，无需多重跳转步骤。
 
 ### [Infinity 新标签页(Pro)](https://chrome.google.com/webstore/detail/infinity-new-tab-pro/nnnkddnnlpamobajfibfdgfnbcnkgngh){:target="\_blank"}
 
-- 推荐指数：💗💗💗💗
+- 推荐指数：❤️❤️❤️❤️
 - 用途：自定义新标签页
 - 介绍：Infinity 新标签页是一款基于 html5 的扩展程序，它将开启你的 Chrome 新标签页和火狐新标签页高度自定义时代。一步添加常用网站到新标签页并以图标展示，可定制的搜索引擎，精选高清壁纸，还有天气、笔记、书签、待办事项、历史记录、Gmail 提醒等小挂件帮助提高生产力。
 - 备注：Pro 暂时是免费的，但是后面可能会收费，有相应的永久免费版 [Infinity](https://chrome.google.com/webstore/detail/infinity-new-tabproductiv/dbfmnekepjoapopniengjbcpnbljalfg){:target="\_blank"} 功能上会阉割一些
@@ -98,7 +98,7 @@ tags:
 
 ### [Momentum](https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca){:target="\_blank"}
 
-- 推荐指数：💗💗💗
+- 推荐指数：❤️❤️❤️
 - 用途：新标签页
 - 介绍：如果你觉得上面的 Infinity 太过臃肿，你只是想要一个漂亮的标签页的话，那么推荐你用这个。更加简约，图片质量也更高。
 
@@ -106,7 +106,7 @@ tags:
 
 ### [LastPass: Free Password Manager](https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd){:target="\_blank"}
 
-- 推荐指数：💗💗💗💗
+- 推荐指数：❤️❤️❤️❤️
 - 用途：密码管理器
 - 介绍：我们有那么多的账号密码，如果都设置成一个密码的话，只要其中一个账号被盗了，那么所有的账号就都会受到威胁。而设置成不同的密码的话...我只能说：你开心就好。
 - 备注 1：关于使用 LastPass 还是 1Password 知乎上有个[1Password 和 LastPass 该选哪个？](https://www.zhihu.com/question/38273008){:target="\_blank"}，可以参考一下，出于钱包的考虑，我选择了 LastPass，Free！Free！Free！
@@ -116,7 +116,7 @@ tags:
 
 ### [OneTab](https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall){:target="\_blank"}
 
-- 推荐指数：💗💗💗
+- 推荐指数：❤️❤️❤️
 - 用途：合并标签页
 - 介绍：当您发现自己有太多的标签页时，单击 OneTab 图标，将所有标签页转换成一个列表。当您需要再次访问这些标签页时，可以单独或全部恢复它们。当您的标签页位于 OneTab 列表时，您将节省高达 95％的内存，因为你将减少 Google Chrome 浏览器中打开的标签页的数量。
 
@@ -124,7 +124,7 @@ tags:
 
 ### [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo){:target="\_blank"}
 
-- 推荐指数：💗💗💗💗💗
+- 推荐指数：❤️❤️❤️❤️❤️
 - 用途：通过安装各类脚本对网站进行定制
 - 介绍：emmmmm,这个插件基本上是必备的了，随便搜一下就能搜到一堆攻略。
   - 直接下载百度网盘文件
@@ -139,7 +139,7 @@ tags:
 
 ### [网页截图:注释&录屏](https://chrome.google.com/webstore/detail/awesome-screenshot-screen/nlipoenfbbikpbjkfpfillcgkoblgpmj){:target="\_blank"}
 
-- 推荐指数：💗💗💗
+- 推荐指数：❤️❤️❤️
 - 用途：截图 录屏
 - 介绍：录屏，捕获整个页面或任何部分，矩形，圆形，箭头，线条和文字，模糊敏感信息，一键上传分享注释。支持 PNG 和链接
 
@@ -147,7 +147,7 @@ tags:
 
 ### [Click&Clean](https://chrome.google.com/webstore/detail/clickclean/ghgabhipcejejjmhhchfonmamedcbeod){:target="\_blank"}
 
-- 推荐指数：💗💗
+- 推荐指数：❤️❤️
 - 用途：浏览器清理及尝试系统程序入口
 - 介绍：功能很强大很多，但是我觉得有点过于多了，我只想要一个能够快速清理浏览器的插件，找了几个都不是很好用，将就着用这个了。
 
@@ -155,13 +155,13 @@ tags:
 
 ### [Search by Image (by Google)](https://chrome.google.com/webstore/detail/search-by-image-by-google/dajedkncpodkggklbegccjpmnglmnflm){:target="\_blank"}
 
-- 推荐指数：💗💗
+- 推荐指数：❤️❤️
 - 用途：搜索图片
 - 介绍：添加一个右键菜单，使用 web 上的任何图像启动 Google 搜索，由谷歌图片团队提供，所以只有能科学上网的同学才能用。
 
 ### [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb){:target="\_blank"}
 
-- 推荐指数：💗💗
+- 推荐指数：❤️❤️
 - 用途：抛弃鼠标 纯键盘控制 Chrome
 - 介绍：上手难度较大（至少我玩了一会儿就把它丢进小黑屋了），比较适合长期使用 Vim 的选手，用习惯了很炫酷，很装逼。
 - 教程：[神器 vimium：比同级程序员成长更快，我主要靠它](https://zhuanlan.zhihu.com/p/38179086){:target="\_blank"}
