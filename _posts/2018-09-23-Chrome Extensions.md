@@ -49,9 +49,10 @@ tags:
 
 ### [crxMouse Chrome™ 手势](https://chrome.google.com/webstore/detail/crxmouse-chrome-gestures/jlgkpaicikihijadgifklkbpdajbkhjo){:target="\_blank"}
 
-- 推荐指数：❤️❤️❤️
+- 推荐指数：❤️❤️❤️❤️(win) ❤️❤️(mac)
 - 用途：鼠标手势,超级拖曳,滚轮手势,摇杆手势,平滑滚动,标签页列表等
 - 介绍：crxMouse Chrome™ 手势扩展程序为您带来触手可及的 Chrome 浏览器功能，通过解锁完全可自定义的鼠标手势、击键和鼠标快捷键来提高您的工作效率。
+- 备注：windows 下比较好用，Macos/linux 下需要设置成双击呼出右键菜单，不然就用不了
 - 官方示例[链接](https://crxmouse.com/zh-hans/){:target="\_blank"}
 
 ### [扩展管理器（Extension Manager）](https://chrome.google.com/webstore/detail/extension-manager/gjldcdngmdknpinoemndlidpcabkggco){:target="\_blank"}
