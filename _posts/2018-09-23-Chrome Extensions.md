@@ -16,7 +16,7 @@ tags:
 # 前言
 
 大家都知道 Chrome 浏览器好用，可是它到底好用在哪呢？  
-我觉得它跟系统的契合度不如 Windows 下的 Edge, Macos 下的 Safari. 启动速度也不如最新版的 Firefox, 它还极其吃内存。
+我觉得它跟系统的契合度不如 Windows 下的 Edge, macOS 下的 Safari. 启动速度也不如最新版的 Firefox, 它还极其吃内存。
 那么大家为什么对它还趋之若鹜呢？
 
 我猜可能是这样的吧：
@@ -33,7 +33,7 @@ tags:
 经过了一天时间的反复挑选，一周多的实际使用后，我的插件库里留下了这些
 ![All Extensions](/img/chrome-extensions/extensions.png)
 总共 23 个（右上角有一个的管理插件的插件），除去 4 个 PWA 应用（图标中带 APP）,剩下了 19 款插件，日常启用 11 款。  
-如果你有什么好用的插件也可以推荐给我，比如我现在很想要一个快速清理浏览器内容的插件。
+如果你有什么好用的插件也可以推荐给我，比如我现在很想要一个快速清理浏览器的插件。
 
 注意: Chrome 真的很吃内存（Chrome: 我没有，我不是，别瞎说），我这么用的话，一启动就是 800M。所以建议大家根据自己的电脑配置以及日常使用频率，来启用/禁用这些插件。
 
@@ -52,7 +52,7 @@ tags:
 - 推荐指数：❤️❤️❤️❤️(win) ❤️❤️(mac)
 - 用途：鼠标手势,超级拖曳,滚轮手势,摇杆手势,平滑滚动,标签页列表等
 - 介绍：crxMouse Chrome™ 手势扩展程序为您带来触手可及的 Chrome 浏览器功能，通过解锁完全可自定义的鼠标手势、击键和鼠标快捷键来提高您的工作效率。
-- 备注：windows 下比较好用，Macos/linux 下需要设置成双击呼出右键菜单，不然就用不了
+- 备注：windows 下比较好用，macOS/linux 下需要设置成双击呼出右键菜单，不然就用不了
 - 官方示例[链接](https://crxmouse.com/zh-hans/){:target="\_blank"}
 
 ### [扩展管理器（Extension Manager）](https://chrome.google.com/webstore/detail/extension-manager/gjldcdngmdknpinoemndlidpcabkggco){:target="\_blank"}
