@@ -26,7 +26,7 @@ tags:
 这些优势的加持下，MacBook Pro确实能够明显提高我们的成产力，不过，仅仅这样你们就满足了吗？
 还能不能锦上添花一下呢，这就是本文的目的所在。
 
-## Windows 10年
+## Windows 养成的习惯
 
 我一直是一个很抠门的人，所以对于我使用的设备，我都会尽可能的去挖掘它的潜能。  
 在使用Windows的10来年里，我也一直会收集一些好用的脚本/工具软件，所以在刚刚转到macOS的时候，我极其不适应，感觉自己的效率严重下降。所以我就开始了寻找那些脚本/工具软件的替代品，有些没有找到，有些找到了更好的。  
@@ -83,3 +83,22 @@ tags:
 - 介绍：用图形化界面去管理你的 npm, 相对来说更加直观一些，也不容易误操作。
 
 ![ndm](/img/macOS-tools/ndm.png)
+
+### [Postman](https://www.getpostman.com/)
+
+- 推荐指数：❤️❤️❤️❤️
+- 用途：HTTP请求/接口测试
+- 介绍：在我们平时开发中，特别是需要与接口打交道时，无论是写接口还是用接口，拿到接口后肯定都得提前测试一下，这样的话就非常需要有一个比较给力的Http请求模拟工具。
+- 基本教程[Postman 工具使用方法详解(完)](https://meetes.top/2018/06/28/Postman%20%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95%E8%AF%A6%E8%A7%A3/)
+- 进阶教程[果冻想](https://www.jellythink.com/archives/category/tool-tutorials/postman)
+
+![Postman](/img/macOS-tools/Postman.png)
+
+### [Charles](https://www.charlesproxy.com/)
+
+- 推荐指数：❤️❤️❤️❤️
+- 用途：网络请求截取/代理
+- 介绍：Charles 是在 PC 端常用的网络封包截取工具，在做移动开发时，我们为了调试与服务器端的网络通讯协议，常常需要截取网络封包来分析。除了在做移动开发中调试端口外，Charles 也可以用于分析第三方应用的通讯协议。配合 Charles 的 SSL 功能，Charles 还可以分析 Https 协议。Charles 通过将自己设置成系统的网络访问代理服务器，使得所有的网络访问请求都通过它来完成，从而实现了网络封包的截取和分析。
+- 使用教程[Charles 功能介绍和使用教程](https://juejin.im/post/5b8350b96fb9a019d9246c4c)
+
+![Postman](/img/macOS-tools/Postman.png)
