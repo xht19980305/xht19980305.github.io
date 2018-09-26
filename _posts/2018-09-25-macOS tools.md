@@ -132,7 +132,7 @@ tags:
 
 - 推荐指数：❤️❤️❤️
 - 用途：视频播放器
-- 介绍：基于最优秀的开源播放器之一 mpv，IINA 支持几乎所有常用媒体的播放（甚至是 GIF），并得以稳定输出高质量的图像。MPV 的配置文件和脚本系统仍然保留。不过目前还没有发布正式版（不过快了），官网下载的还是比较老的版本，建议去Github 仓库去下载，也就是我给的这个[链接]（https://github.com/lhc70000/iina/releases){:target="\_blank"}
+- 介绍：基于最优秀的开源播放器之一 mpv，IINA 支持几乎所有常用媒体的播放（甚至是 GIF），并得以稳定输出高质量的图像。MPV 的配置文件和脚本系统仍然保留。不过目前还没有发布正式版（不过快了），官网下载的还是比较老的版本，建议去Github 仓库去下载，也就是我给的这个[链接](https://github.com/lhc70000/iina/releases){:target="\_blank"}
 
 ### [Snipaste](https://zh.snipaste.com/){:target="\_blank"}
 

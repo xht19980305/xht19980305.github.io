@@ -2,7 +2,7 @@
 layout: post
 title: Chrome 扩展程序分享和推荐
 subtitle: 一些常用且好用的扩展程序能够让你更加舒服的使用 Chrome, 尽情的让它火力全开吧。
-date: 2018-09-23
+date: 2018-09-26
 author: Vm
 image: /img/chrome-extensions/favicon.ico
 catalog: true
@@ -29,6 +29,7 @@ tags:
 那么剩下的 5 成能力呢，就要通过它的各种各样的插件（扩展程序）来获取了。
 
 注：文章中有什么写的不对的地方，欢迎留言或者通过留言或者我的微博、知乎、推特告诉我。
+注：转载请注明出处。
 
 ## 我的扩展程序
 
