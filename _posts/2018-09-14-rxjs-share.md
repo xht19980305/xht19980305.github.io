@@ -1,7 +1,7 @@
 ---
 layout: post
 title: RxJS 学习分享
-subtitle: 在一个多月的学习使用过程中，觉得 Rxjs 是个好东西，简单分享给大家
+subtitle: 在一个多月的学习使用过程中，觉得 RxJS 是个好东西，这是我的一个学习总结
 date: 2018-09-14
 author: Vm
 image: /img/rxjs-share/favicon.ico
@@ -13,6 +13,8 @@ tags:
 ---
 
 # RxJS 学习分享
+
+注：文章中有什么写的不对的地方，欢迎留言或者通过留言或者我的微博、知乎、推特告诉我。
 
 ## 什么是 RxJS
 
