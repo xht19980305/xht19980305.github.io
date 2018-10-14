@@ -4,7 +4,6 @@ title: Chrome 扩展程序分享和推荐
 subtitle: 一些常用且好用的扩展程序能够让你更加舒服的使用 Chrome, 尽情的让它火力全开吧。
 date: 2018-09-26
 author: Vm
-image: /img/chrome-extensions/favicon.ico
 catalog: true
 
 tags:

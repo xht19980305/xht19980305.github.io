@@ -4,7 +4,7 @@ title: TypeScript 学习笔记
 subtitle: 重新系统的学习一遍 ts, 将其中一些有意思的知识点记录下来
 date: 2018-10-15
 author: Vm
-header-img: /img/type-script/favicon.ico
+header-img: /img/type-script/foreground_bluprint.svg
 catalog: true
 
 tags:
@@ -235,3 +235,7 @@ TypeScript 支持与 JavaScript（ES6） 几乎相同的数据类型，此外还
   clone.p; // ok
   clone.m(); // error!
   ```
+
+  其次，TypeScript 编译器不允许展开泛型函数上的类型参数。 这个特性会在 TypeScript 的未来版本中考虑实现。
+
+#### 接口

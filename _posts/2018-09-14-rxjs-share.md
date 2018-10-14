@@ -4,7 +4,6 @@ title: RxJS 学习分享
 subtitle: 在一个多月的学习使用过程中，觉得 RxJS 是个好东西，这是我的一个学习总结
 date: 2018-09-14
 author: Vm
-image: /img/rxjs-share/favicon.ico
 catalog: true
 
 tags:
