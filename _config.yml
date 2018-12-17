@@ -94,7 +94,6 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "特航",
-        href: "https://cntehang.github.io"
+        
     }
 ]
