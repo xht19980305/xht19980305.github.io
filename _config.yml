@@ -58,11 +58,11 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: 571510b202515d39bcc6                            #生成的clientID
-  clientSecret: f3784b0ab3e44cc780d87dc023181efd6a7e9759    #生成的clientSecret
-  repo: danranvm.github.io    #仓库名称
-  owner: danranvm    #github用户名
-  admin: danranvm
+  clientID: b8bc3511bb031438fa74                            #生成的clientID
+  clientSecret: 79c92e42799e637030fbae9309579ce43dbdada8    #生成的clientSecret
+  repo: xht19980305.github.io    #仓库名称
+  owner: xht19980305    #github用户名
+  admin: xht19980305
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
@@ -94,6 +94,6 @@ service-worker: true
 # Friends
 friends: [
     {
-        
+
     }
 ]
